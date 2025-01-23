@@ -29,3 +29,7 @@ jobs:
         run: sudo touch power.txt
       - name: ls
         run: ls -lha
+      - name: Remove
+        run: rm grass.txt
+      - name: Power remove
+        run: rm power.txt
