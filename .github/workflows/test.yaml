@@ -10,6 +10,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: WhoAmI
+        run: whoami
+      - name: Where Am I
+        run: pwd
+      - name: What is my address
+        run: curl ipinfo.io
       - name: Cat
         run: |
           cat test.txt
