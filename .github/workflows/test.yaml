@@ -23,3 +23,9 @@ jobs:
       - name: Cat
         run: |
           cat test.txt
+      - name: Touch
+        run: touch grass.txt
+      - name: Power touch
+        run: sudo touch power.txt
+      - name: ls
+        run: ls -lha
