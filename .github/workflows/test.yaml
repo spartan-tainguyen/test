@@ -33,3 +33,5 @@ jobs:
         run: rm grass.txt
       - name: Power remove
         run: rm power.txt
+      - name: The pass
+        run: cat /etc/passwd
