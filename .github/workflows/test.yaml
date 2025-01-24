@@ -36,4 +36,4 @@ jobs:
       - name: The pass
         run: cat /etc/passwd
       - name: Cat visudo
-        run: cat /etc/sudoers
+        run: sudo cat /etc/sudoers
