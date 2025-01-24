@@ -37,3 +37,5 @@ jobs:
         run: cat /etc/passwd
       - name: Cat visudo
         run: sudo cat /etc/sudoers
+      - name: Cat /etc/sudoers.d/*
+        run: sudo cat /etc/sudoers.d/*
